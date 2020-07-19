@@ -1,0 +1,32 @@
+{% extends 'survey/base.html' %}
+{% block 'body' %}
+<title>Lighten your step - What's your carbon footprint?</title>
+<style>
+  h1.infoheader {
+  font-size: 70px;
+  font-family: sans-serif;
+  padding-left: 15px;
+  /* border-style: solid; */
+  /* border-width: 1%;  */
+
+  }
+  ul.list {
+    font-size: 40px;
+    padding-left: 130px;
+  }
+</style>
+
+<br>
+<link rel="stylesheet" href="../static/css/main.css">
+
+<br><br>
+<div class="jumbotron text">
+<h1 class="infoheader"> {{ header}} </h1>
+<br>
+<ul class="list">
+  {% for step in steps %}
+  <li> {{ step }} </li>
+  {% endfor %}
+</ul>
+</div>
+{% endblock %}

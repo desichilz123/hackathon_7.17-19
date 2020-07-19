@@ -1,0 +1,86 @@
+html, body {
+
+  height: 100%;
+  width: 100%;
+  margin-top: 2%;
+  scroll-behavior: smooth;
+
+}
+
+div.navbar {
+
+  float: left;
+  background-image: url("tree.jpeg");
+  width: 23%;
+  height: 100%;
+  /* border-style: solid; */
+  /* border-width: 1%;  */
+
+}
+
+div.miniheader {
+
+  background-color: orange;
+  height: 50%;
+
+}
+
+img.sizing {
+
+  width: 50%;
+  height: 5%;
+  float: right;
+
+}
+
+h1 {
+
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: monospace;
+
+}
+
+img.hyper_link {
+
+  /*margin-top: 100px;*/
+  width: 80%;
+  height: auto;
+  padding-left: 8%;
+  padding-top: 25%;
+
+}
+
+img.dev {
+
+  padding-top: 10px;
+  width: 80%;
+  height: 6%;
+
+}
+
+div.container {
+
+  overflow-y: scroll;
+  /* scroll */
+  background-color: green;
+  width: 77%;
+  height: 100%;
+  float: right
+
+}
+
+.lead_text-muted {
+
+  color: purple;
+  font-size: 20px;
+
+}
+
+.about_us_text {
+
+  padding-bottom: 8%;
+  font-family: cursive; 
+
+}

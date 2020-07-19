@@ -1,0 +1,111 @@
+{% extends 'survey/base.html' %}
+{% block 'body' %}
+<div class="text-center">
+  {% load static %}
+
+<style>
+
+  html, body {
+
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+  }
+
+  .para {
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  img.treepic {
+
+    height: auto;
+    width: 100%;
+    filter: brightness(65%);
+
+  }
+
+  div.topbar {
+
+    height: auto;
+    width: 100%;
+
+
+  }
+
+  div.topbar2 {
+
+    width: 100%
+    height: auto;
+
+  }
+
+</style>
+<title>Lighten your step</title>
+
+  <!-- About us -->
+  <div>
+    <section id = "about us" class = "jumbotron text-center">
+    <div class="topbar">
+    <div class="topbar2">
+      <center><h1>About Us</h1>
+        <br>
+        <p class="para">
+          We are a group of rising juniors at Milpitas High School who are very passionate about coding. We decided to use our skill set towards addressing the current problem of heavy carbon dioxide emissions which leads to many environmental issues such as acid rain, climate change, ocean acidification, and ozone layer depletion.
+        </p>
+        <br>
+      </center>
+    </div>
+    </div>
+    <!-- tree image -->
+    <!-- <section> -->
+    <img src="https://arbordayblog.org/wp-content/uploads/2018/06/oak-tree-sunset-iStock-477164218-1080x608.jpg" alt="Tree" class="treepic">
+    <!-- </section> -->
+    </section>
+  </div>
+
+<!-- Contact information-->
+  <main role="main">
+
+    <section id = "developers" class="jumbotron text-center">
+      <div class="container">
+
+        <!-- Kireeti Chilakamarry -->
+        <h1> Developers </h1>
+        <br><br><br>
+        <h2>Kireeti Chilakamarry</h2>
+        <p class="lead_text-muted">Hi, my name is Kireeti. I enjoy making apps and websites as well as coding in general.</p>
+        <p>
+          <a href="mailto:desichilz123@gmail.com" class="btn btn-primary my-2">Email Me</a>
+          <a href="https://www.linkedin.com/in/kireeti-chilakamarry-7b8358177/" class="btn btn-primary my-2" target = "blank">LinkedIn</a>
+        </p>
+
+        <!-- Fardin Haque -->
+        <h2>Fardin Haque</h2>
+        <p class="lead_text-muted">Hi, my name is Fardin. Coding is one of my passions and I also run in my free time.  </p>
+        <p>
+          <a href="mailto:fardinhaque60@gmail.com" class="btn btn-primary my-2">Email Me</a>
+          <a href="https://www.linkedin.com/in/fardin-haque-b447a11a1/" class="btn btn-primary my-2" target = "blank">LinkedIn</a>
+        </p>
+
+        <!-- Chiruhaas Udatha -->
+        <h2>Chiruhaas Udatha</h2>
+        <p class="lead_text-muted">Hi, my name is Chiruhaas. I enjoy reading sci-fi and learning about physics.</p>
+        <p>
+          <a href="mailto:chiruhaasudatha@gmail.com" class="btn btn-primary my-2">Email Me</a>
+          <a href="https://www.linkedin.com/in/chiruhaas-udatha-48b46b1a0/" class="btn btn-primary my-2" target = "blank">LinkedIn</a>
+        </p>
+
+        <!-- Rushil  Patel -->
+        <h2>Rushil Patel</h2>
+        <p class= "lead_text-muted">Hi, my name is Rushil. I enjoy programming as well playing sports! </p>
+        <p>
+            <a href = "malito:luckyrushil@gmail.com" class = "btn btn-primary my-2">Email Me</a>
+        </p>
+
+      </div>
+    </section>
+    </main>
+</div>
+{% endblock %}

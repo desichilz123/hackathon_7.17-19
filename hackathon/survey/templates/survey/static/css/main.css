@@ -1,0 +1,54 @@
+html, body {
+
+height: 100%;
+width: 100%;
+scroll-behavior: smooth;
+
+}
+
+div.navbar {
+
+float: left;
+width: 23%;
+height: 100%;
+/* border-style: solid; */
+/* border-width: 1%;  */
+
+}
+
+img.hyper_link {
+
+/*margin-top: 100px;*/
+width: 80%;
+height: auto;
+padding-left: 8%;
+padding-top: 25%;
+
+}
+
+div.container {
+
+overflow-y: scroll;
+/* scroll */
+width: 77%;
+height: 100%;
+float: right
+
+}
+
+.about_us_text {
+
+padding-bottom: 8%;
+font-family: cursive;
+
+}
+
+img.treepic {
+  width: 100%;
+  height: auto;
+  padding-top: 1%;
+  border-radius: 15px 15px 15px 15px;
+}
+
+
+}
